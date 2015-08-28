@@ -622,10 +622,11 @@ img {
     padding-left: 4.375em; } }
 
 @media screen and (min-width: 768px) {
-  .pricebar-wrapper1 {
-    width: 32%;
+  .wrapper-wrapper {
+    width: 33.3%;
     box-sizing: border-box;
-    display: inline-block; }
+    display: inline-block;
+    margin-right: -.25em; }
   .p1box {
     width: 49%;
     height: 14.375em;
@@ -658,3 +659,9 @@ img {
     margin-top: 0;
     padding-top: 2.5em;
     vertical-align: top; } }
+
+@media screen and (min-width: 979px) {
+  .bgpic {
+    background-size: cover; }
+  .daddy-of-all-wrappers {
+    padding: 0 15%; } }
