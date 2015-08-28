@@ -1,0 +1,61 @@
+img {
+	height: 12.1865;
+}
+
+.nav {
+	height: 2.1865em;
+	background-color: white;
+}
+
+.bgpic {
+	height: 12.625em;
+	background-color: green;
+	overflow: hidden;
+}
+
+.pricebar1 {
+	height: 13.75em;
+	background-color: #519251;
+	margin-top: 3.125em;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.pricebar2 {
+	height: 13.75em;
+	background-color: #2C4985;
+	margin-top: 3.125em;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.pricebar3 {
+	height: 13.75em;
+	background-color: #111111;
+	margin-top: 3.125em;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.options1 {
+	height: 2.8125em;
+	background-color: #F7F7F7;
+	border: .0625em solid #D4D4D4;
+	border-top: none;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.choosebox {
+	height: 5.3125em;
+	background-color: white;
+	border: .0625em solid #D4D4D4;
+	border-top: none;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.footer {
+	height: 6.25em;
+	background-color: #111111;
+}

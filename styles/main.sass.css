@@ -1,0 +1,660 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"], input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+img {
+  height: 12.1865; }
+
+.nav {
+  height: 2.1865em;
+  background-color: white; }
+  .nav .navtext1 {
+    margin-top: .7em;
+    margin-left: 1em;
+    float: left; }
+    .nav .navtext1 a {
+      text-decoration: none;
+      color: #636B71; }
+  .nav .navtext2 {
+    color: #878787;
+    margin-top: .7em;
+    margin-left: 2.5em;
+    float: left; }
+    .nav .navtext2 a {
+      text-decoration: none;
+      color: #878787; }
+  .nav .navtext3 {
+    color: #151515;
+    margin-top: .7em;
+    margin-left: 2.5em;
+    float: left; }
+    .nav .navtext3 a {
+      text-decoration: none;
+      color: #151515; }
+  .nav .navtext4 {
+    color: #878787;
+    margin-top: .7em;
+    margin-left: 2.5em;
+    float: left; }
+    .nav .navtext4 a {
+      text-decoration: none;
+      color: #878787; }
+
+.bgpic {
+  height: 8.35em;
+  padding-top: 4.375em;
+  background-image: url(../images/background.jpg); }
+  .bgpic .bigtext1 {
+    color: white;
+    font-size: 2em;
+    text-align: center; }
+  .bgpic .bigtext2 {
+    color: white;
+    font-size: 2em;
+    text-align: center; }
+
+.pricebar1 {
+  height: 11.75em;
+  background-color: #519251;
+  padding-top: 2em;
+  margin-top: 3.125em;
+  margin-left: .5em;
+  margin-right: .5em; }
+  .pricebar1 .personal {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: .25em; }
+  .pricebar1 .five {
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 6em;
+    letter-spacing: .05em; }
+  .pricebar1 .permonth {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    opacity: .5; }
+
+.pricebar2 {
+  height: 11.75em;
+  padding-top: 2em;
+  background-color: #2C4985;
+  margin-top: 3.125em;
+  margin-left: .5em;
+  margin-right: .5em; }
+  .pricebar2 .small-b {
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: .25em; }
+  .pricebar2 .two-five {
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 6em;
+    letter-spacing: .05em; }
+  .pricebar2 .permonth {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    opacity: .5; }
+
+.pricebar3 {
+  height: 11.75em;
+  padding-top: 2em;
+  background-color: #111111;
+  margin-top: 3.125em;
+  margin-left: .5em;
+  margin-right: .5em; }
+  .pricebar3 .enterprise {
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: .25em; }
+  .pricebar3 .four-five {
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 6em;
+    letter-spacing: .05em; }
+  .pricebar3 .permonth {
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    opacity: .5; }
+
+.options1 {
+  height: 1.8125em;
+  padding-top: 1em;
+  background-color: #F7F7F7;
+  border: .0625em solid #D4D4D4;
+  border-top: none;
+  margin-left: .5em;
+  margin-right: .5em; }
+  .options1 .freesetup {
+    color: #798488;
+    text-align: center; }
+  .options1 .custom-sub {
+    color: #798488;
+    text-align: center; }
+  .options1 .standard {
+    color: #798488;
+    text-align: center; }
+  .options1 .one-gig {
+    color: #798488;
+    text-align: center; }
+  .options1 .one-data {
+    color: #798488;
+    text-align: center; }
+  .options1 .unlimited {
+    color: #798488;
+    text-align: center; }
+
+.choosebox {
+  height: 3.6875em;
+  padding-top: 1.625em;
+  background-color: white;
+  border: .0625em solid #D4D4D4;
+  border-top: none;
+  margin-left: .5em;
+  margin-right: .5em; }
+  .choosebox .button {
+    height: 1.625em;
+    width: 5.625em;
+    padding-top: .625em;
+    background-color: white;
+    margin: 0 auto;
+    border: .0625em solid #D4D4D4;
+    border-radius: 2em; }
+    .choosebox .button .choose {
+      color: black;
+      font-weight: bold;
+      text-align: center; }
+      .choosebox .button .choose a {
+        color: black;
+        text-decoration: none; }
+
+.p1box {
+  height: 13.6875em;
+  margin-top: 6.875em; }
+  .p1box .p1head {
+    color: black;
+    font-family: sans-serif;
+    margin-left: 2em;
+    font-size: 1.2em;
+    letter-spacing: .25em; }
+  .p1box .p1 {
+    color: #6B7A80;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    line-height: 1.5em; }
+
+.p2box {
+  margin-top: 0; }
+  .p2box .p1head {
+    color: black;
+    font-family: sans-serif;
+    margin-left: 2em;
+    font-size: 1.2em;
+    letter-spacing: .25em; }
+  .p2box .p1 {
+    color: #6B7A80;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    line-height: 1.5em; }
+
+.p3box {
+  margin-top: 3.875em; }
+  .p3box .p1head {
+    color: black;
+    font-family: sans-serif;
+    margin-left: 2em;
+    font-size: 1.2em;
+    letter-spacing: .25em; }
+  .p3box .p1 {
+    color: #6B7A80;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    line-height: 1.5em; }
+
+.p4box {
+  margin-top: 3.875em; }
+  .p4box .p1head {
+    color: black;
+    font-family: sans-serif;
+    margin-left: 2em;
+    font-size: 1.2em;
+    letter-spacing: .25em; }
+  .p4box .p1 {
+    color: #6B7A80;
+    margin-top: 1em;
+    margin-left: 2.5em;
+    line-height: 1.5em; }
+
+.footer {
+  height: 4.25em;
+  padding-top: 2em;
+  background-color: #111111;
+  margin-top: 2em; }
+  .footer .footer-link1 {
+    text-align: center; }
+    .footer .footer-link1 a {
+      text-decoration: underline;
+      color: #DDDDDD;
+      line-height: 1em; }
+    .footer .footer-link1 .footer-text {
+      color: #858585;
+      font-family: sans-serif;
+      line-height: 1.5em; }
+
+@media screen and (min-width: 479px) {
+  .bgpic {
+    height: 15.4375em;
+    padding-top: 9.5625em; }
+    .bgpic .bigtext1 {
+      color: white;
+      font-size: 3.3em;
+      text-align: center; }
+    .bgpic .bigtext2 {
+      color: white;
+      font-size: 3.3em;
+      text-align: center; }
+  .p1box {
+    padding-right: 2.1875em; }
+  .footer {
+    padding-right: 4.375em;
+    padding-left: 4.375em; } }
+
+@media screen and (min-width: 768px) {
+  .pricebar-wrapper1 {
+    width: 32%;
+    box-sizing: border-box;
+    display: inline-block; }
+  .p1box {
+    width: 49%;
+    height: 14.375em;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 2.5em;
+    vertical-align: top; }
+  .p2box {
+    width: 49%;
+    height: 14.375em;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 2.5em;
+    vertical-align: top; }
+  .p3box {
+    width: 49%;
+    height: 14.375em;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 2.5em;
+    vertical-align: top; }
+  .p4box {
+    width: 49%;
+    height: 14.375;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 0;
+    padding-top: 2.5em;
+    vertical-align: top; } }
